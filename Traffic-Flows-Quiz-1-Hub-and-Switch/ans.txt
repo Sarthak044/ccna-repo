@@ -1,0 +1,26 @@
+Quiz Questions:
+Assume that all devices have just rebooted (you can simulate this via the Power Cycle Devices Button in Pacet Tracer)
+
+Don't just answer the questions. Prove it.
+1) When PC1 pings PC4, what type of packet is sent to the hub initially? Can you prove it? -- > ARP
+
+2) Who receives the packet? --> first the hub, then broadcasted to evert device 
+
+3) Who receives the return traffic from PC4 to PC1? --> first the hub then again it is broadcasted to all the devices on the network 
+
+4) When ping traffic is sent from PC1 to PC4, who receives the traffic? --> all devices in the network 
+
+5) Assume that the Switch1's MAC address table is empty. 
+When PC5 pings PC8, what type of packet is sent to the switch initially? Can you prove it? --> ARP
+
+6) Who receives the packet? --> all devices on the network 
+
+7) Who receives the return traffic from PC8 to PC5? --> PC5 only
+
+8) When ping traffic is sent from PC5 to PC8, who receives the traffic? --> Only PC8
+
+9) How many broadcast domains are there in Network 1? Can you prove it? --> 1 broadcast domain
+
+10) How many broadcast domains are there in Network 2? Can you prove it? --> 3 broadcast domain
+
+11) How may collision domains in Network 1 and Network 2? Can you prove it? --> 1 collision domain for network 1, 
